@@ -9,8 +9,8 @@ Before starting, it might be worth getting familiar with how each zip file is pa
 
 Mandatory changes when running code:
 
-my_park="atc_parking_codes=DHK,DHL" <----------------------- Change parking code
-my_type="atc_parking_types=CARGO"   <------------------------ Change parking type
+my_park="atc_parking_codes=DHK,DHL" <----------------------- Change parking code \n
+my_type="atc_parking_types=CARGO"   <------------------------ Change parking type \n
 airline='dhl'                       <------------------------ Change airline code used in path ssetup
 
 #zippath = 'C:/Users/w9641432/Downloads/temp/'
