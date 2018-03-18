@@ -23,4 +23,4 @@ dst_ai = 'C:/Users/w9641432/Desktop/fsx/new_AI_Aircraft/'          <------------
 
 
 
-It should also be noted that the code will report if an existing livery is present incase you happend to try and install it again, at which point the livery is not added. 
+It should also be noted that the code will report if an existing livery is present incase you happend to try and install it again, at which point the livery is not added. Once you have completed your install, I suggest you remove the "z_out_path" temp folder and remake it for the next airline
