@@ -11,12 +11,11 @@ Mandatory changes when running code:
 
 my_park="atc_parking_codes=DHK,DHL" <----------------------- Change parking code \n
 my_type="atc_parking_types=CARGO"   <------------------------ Change parking type \n
-airline='dhl'                       <------------------------ Change airline code used in path ssetup
+airline='dhl'                       <------------------------ Change airline code used in path setup \n
 
-#zippath = 'C:/Users/w9641432/Downloads/temp/'
-zippath = 'C:/Users/w9641432/Desktop/fsx/downloads/'+ airline +'/' < --------------- Path where zips are held
-z_out_path = 'C:/Users/w9641432/Desktop/fsx/temp/'                 <---------------- Output folder where zip contents will reside
-dst_ai = 'C:/Users/w9641432/Desktop/fsx/new_AI_Aircraft/'          <---------------- Destination folder of livery
-items = os.listdir(zippath)
+zippath = 'C:/Users/w9641432/Desktop/fsx/downloads/'+ airline +'/' < --------------- Path where zips are held \n
+z_out_path = 'C:/Users/w9641432/Desktop/fsx/temp/'                 <---------------- Output folder where zip contents will reside \n
+dst_ai = 'C:/Users/w9641432/Desktop/fsx/new_AI_Aircraft/'          <---------------- Destination folder of livery \n
+
 
 It should also be noted that the code will report if an existing livery is present incase you happend to try and install it again, at which point the livery is not added. 
